@@ -1,0 +1,36 @@
+* {
+  box-sizing:border-box;
+  position:relative;
+  margin:0;
+  padding:0;
+  font-family:monospace;
+  font-weight:400;
+  font-size:12px;
+  color:#ccc;
+  cursor:default;
+  outline:none;
+  user-select:none;
+  transition:all ease-in-out 75ms;
+}
+html, body {
+  height:100vh;
+  background:#000;
+  overflow:hidden;
+}
+.text-center {
+  display:block;
+  text-align:center;
+}
+.title {
+  margin-bottom:5px;
+  color:#fff;
+}
+.clickable:hover {
+  color:#fff;
+  cursor:pointer;
+
+  * {
+    color:inherit;
+    cursor:inherit;
+  }
+}
